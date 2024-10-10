@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    margin: 0 0 10px;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+/* Estilo para los bloques en espiral */
+.bloque {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.bloque-izquierda {
+    flex-direction: row;
+}
+
+.bloque-derecha {
+    flex-direction: row-reverse;
+}
+
+/* Estilo para las imágenes */
+.imagen {
+    flex: 1;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilo para el texto */
+.texto {
+    flex: 1;
+    padding: 20px;
+}
+
+.texto h3 {
+    color: #2c3e50;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
